@@ -1,0 +1,38 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Links</title>
+    <style>
+        img {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        body{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        img{
+            width: 100%;
+        }
+        *{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.freshworks.com/freshdesk/helpdesk-software/?tactic_id=3386630&utm_source=google-adwords&utm_medium=FD-Search-CORE-Mix-India&utm_campaign=FD-Search-CORE-Mix-India&utm_term=saas%20solutions&device=c&matchtype=e&network=g&gclid=Cj0KCQjw9deiBhC1ARIsAHLjR2Buu823LzrorAuH05pROu1cEihqR6LAPP5MG-sLY9qGg8Q2K0iC8ZoaAunwEALw_wcB&gclid=Cj0KCQjw9deiBhC1ARIsAHLjR2Buu823LzrorAuH05pROu1cEihqR6LAPP5MG-sLY9qGg8Q2K0iC8ZoaAunwEALw_wcB">
+        <img src="{%static 'image.png'%}" alt="SaaS Image">
+    </a>
+    <a href="https://www.hpe.com/in/en/greenlake.html?jumpid=ps_9k37ivuen_aid-520061462&ef_id=Cj0KCQjw9deiBhC1ARIsAHLjR2BTrvi_gpk1zBdNeglf3zoxb426Lg1mMLIswpZkoUOImOzmauStDkQaAsAwEALw_wcB:G:s&s_kwcid=AL!13472!3!631518104831!p!!g!!as%20a%20service!18736118814!143182445179&">
+        <img src="{%static 'image (1).png'%}" alt="PaaS Image">
+    </a>
+    <a href="https://www.g2.com/products/amazon-ec2/reviews">
+        <img src="{%static 'image (2).png'%}"alt="IaaS Image">
+    </a>
+</body>
+</html>
